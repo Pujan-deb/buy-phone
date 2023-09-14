@@ -60,3 +60,6 @@ document.getElementById('remove').addEventListener('click', () => {
 
 
 })
+document.getElementById('Purchase').addEventListener('click', () => {
+    alert('Thank you for purchasing');
+})
