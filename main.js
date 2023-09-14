@@ -51,7 +51,7 @@ document.getElementById('cancel').addEventListener('click', () => {
     let coverprice = document.getElementById('coverprice');
     coverprice.innerText = 0;
     let phoneprice = document.getElementById('Phoneprice').innerText;
-    //tax
+    //tax function
     let tax = document.getElementById('tax');
     let taxamount = parseInt(phoneprice) * 0.1;
     let finaltax = Math.round(taxamount);
